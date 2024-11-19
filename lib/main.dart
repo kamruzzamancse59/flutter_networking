@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Networking with Flutter',
-      home: HomeScreen(), // Wrap the Scaffold in a separate widget
+      home: HomeScreen(), 
     );
   }
 }
@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Networking Example'),
       ),
-      body: Center( // Center the buttons in the screen
+      body: Center( 
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
