@@ -1,6 +1,6 @@
 import 'package:chopper/chopper.dart';
 
-part 'chopper_service.chopper.dart'; // Required for Chopper code generation
+part 'chopper_service.chopper.dart'; 
 
 @ChopperApi()
 abstract class PostService extends ChopperService {
